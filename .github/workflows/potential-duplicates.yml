@@ -1,7 +1,7 @@
 name: Potential Duplicates
 on:
-  issues:
-    types: [opened, edited]
+  workflow_dispatch:
+
 jobs:
   run:
     runs-on: ubuntu-latest
